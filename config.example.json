@@ -1,0 +1,29 @@
+# Onshape API Konfiguration
+# Kopiere diese Datei zu 'config.json' und fülle deine echten Werte ein
+
+{
+    "api": {
+        "access_key": "DEIN_ACCESS_KEY_HIER",
+        "secret_key": "DEIN_SECRET_KEY_HIER",
+        "base_url": "https://cad.onshape.com"
+    },
+    "document": {
+        "document_id": "DOCUMENT_ID_24_ZEICHEN",
+        "workspace_id": "WORKSPACE_ID_24_ZEICHEN",
+        "element_id": "ELEMENT_ID_24_ZEICHEN"
+    },
+    "variable": {
+        "name": "length",
+        "start_value": 10.0,
+        "end_value": 50.0,
+        "step_size": 5.0
+    },
+    "export": {
+        "output_folder": "output",
+        "export_step": true,
+        "export_parasolid": false
+    },
+    "timing": {
+        "delay_between_iterations": 2
+    }
+}
